@@ -1,0 +1,213 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+@font-face {
+	font-family: 'ecoico';
+	src:url('../fonts/timelineicons/ecoico.eot');
+	src:url('../fonts/timelineicons/ecoico.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/timelineicons/ecoico.woff') format('woff'),
+		url('../fonts/timelineicons/ecoico.ttf') format('truetype'),
+		url('../fonts/timelineicons/ecoico.svg#ecoico') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} /* Made with http://icomoon.io/ */
+
+.cbp_tmtimeline {
+	margin: 10px 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 6px;
+	background: #dcdcdc;
+	right: 22%;
+	margin-right: -10px;
+}
+
+/* The date/time */
+.cbp_tmtimeline > li .cbp_tmtime {
+	display: block;
+	position: absolute;
+	right:0;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span {
+	display: block;
+	text-align: right;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:first-child {
+	font-size: 0.9em;
+	color: #bdd0db;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+	font-size: 2.9em;
+	color: #3594cb;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
+	color: #6cbfee;
+}
+
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel {
+	margin: 0 24% 15px 0;
+	background: #f6f6f6;
+	color: #1d1d1d;
+	padding: .5em;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 0px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+	background: #f6f6f6;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel h2 { 
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* The triangle */
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+	left: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-left-color: #f6f6f6;
+	border-width: 10px;
+	top: 5px;
+}
+
+
+
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon {
+	width: 6px;
+	height: 20px;
+	line-height: 40px;
+	position: absolute;
+	border:0px solid #fff;
+	color: #fff;
+	background: #296cc6;
+	text-align: center;
+	right: 22%;
+	margin: 0 -10px 0 0;
+}
+
+
+/* lEFT content */
+.cbp_tmtimeline > li .cbp_tmlabel2 {
+	
+	background: #2f76cf;
+	color: #fff;
+	padding: 1px 8px 3px 8px;
+	font-size: .9em;
+	line-height: 1.2;
+	position: relative;
+	border-radius: 0px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel2 {
+	background: #2f76cf;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel2 h2 { 
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* The LEFT triangle */
+.cbp_tmtimeline > li .cbp_tmlabel2:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #2f76cf;
+	border-width: 5px;
+	top: 5px;
+}
+
+
+/* Example Media Queries */
+@media (max-width: 1200px) {
+	.cbp_tmtimeline > li .cbp_tmtime {
+	display: block;;
+	position: absolute;
+	right:0;
+}
+	.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+		font-size: 1.5em;
+	}
+}
+
+@media  (max-width: 979px) {
+
+.cbp_tmtimeline > li .cbp_tmlabel2:after {
+display:none;
+}
+
+.cbp_tmtimeline > li .cbp_tmicon {
+display:none;
+}
+	.cbp_tmtimeline:before {
+		display: none;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+		right: auto;
+		left: 20px;
+		border-right-color: transparent;
+		border-bottom-color: #f6f6f6;
+		top: -20px;
+	}
+
+	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+		border-right-color: transparent;
+		border-bottom-color: #f6f6f6;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmicon {
+		position: relative;
+		float: right;
+		left: auto;
+		margin: -55px 5px 0 0px;
+	}	
+}
+

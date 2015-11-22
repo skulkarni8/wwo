@@ -1,0 +1,74 @@
+
+html{
+margin-top:0;
+padding:0;
+}
+
+#top {
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 0px 0px;
+}
+body {
+  margin: 0;
+  margin-top:0px;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  height:100%;
+  width:100%;
+}
+
+/*#MainPageTheme{
+  position:relative;
+  padding:0;
+  margin:0;
+  margin-top:0px;
+  overflow:hidden;
+  height:500px;
+  background-image: url(../img/background-image1.jpg);
+  background-size: 100% 500px;
+  background-attachment: fixed;
+}
+*/
+
+div.BackImage1 {
+    background: url(../img/m3.jpg) repeat;
+	 border: 2px solid black;
+}
+
+div.BackImage2 {
+    background: url(../img/m4.jpg) repeat;
+    border: 2px solid black;
+}
+
+div.BackImage3 {
+    background: url(../img/m5.jpg) repeat;
+    border: 2px solid black;
+}
+
+div.BackImage4 {
+    background: url(../img/m6.jpg) repeat;
+    border: 2px solid black;
+}
+
+div.BackImage5 {
+    background: url(../img/m7.jpg) repeat;
+    border: 2px solid black;
+}
+
+
+div.Transbox {
+    margin: 210px;
+    background-color: rgba(255,255, 255, 0.95);
+     opacity: 0.6;
+    filter: alpha(opacity=60);
+    align-content: center;
+}
+
+div.Transbox p {
+    margin: 5%;
+    color: rgba(255, 0, 0, 0.9);
+    font-weight: bold;
+    align-self: center;
+    align-content: center;
+}

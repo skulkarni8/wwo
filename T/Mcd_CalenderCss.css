@@ -1,0 +1,451 @@
+
+table.cal tr td{border:1px solid #ccc; color:#555;}
+table.cal tr th{text-align:center;}
+table.cal tr th.WeekCalTopRow{padding:5px 3px; background-color:#fff0ba;}
+td.calendar-day-np
+{
+	
+	height:120px;
+	border:1px solid #68c9cb;
+	text-align:right;
+	background-color:#FAFAFA;
+	color:#bf9650;
+}
+
+td.calendar-day
+{
+	
+	height:120px;
+	border:1px solid #68c9cb;
+	padding:10px;
+	text-align:right;
+	background-color:#FAFAFA;
+	color:#000000;
+}
+.day-number   { 
+	float:left;
+	color:#000000;
+	height:15px;
+	margin-top:0px;
+}
+.AddEvent
+{
+	float : left;
+	margin-left:0px;
+	
+}
+.daynumber
+{
+	position: relative;	
+	float:right;
+	text-align:center;
+	width:20px;
+	background-color:#b2f6fe;
+	border:0px solid #fff;
+}
+.clear
+{
+	clear:both;
+}
+div.day-Event  { 
+  
+	height:20px;
+	margin-top:0px;
+	color:#000000;
+	}
+
+div.day-NoEvent
+{ 
+  
+	height:20px;
+	margin-top:0px;
+	color:#000000;
+	
+}
+
+td.day-NilEvent
+{
+width:14.28%;
+height:120px;
+border:1px solid #68c9cb;
+text-align:right;
+color:#000000;
+background-color:#c2dade;
+vertical-align:top;
+}
+
+td.day-Event
+{
+		width:14.28%;
+	height:120px;
+	border:1px solid #68c9cb;
+	text-align:right;
+	color:#000000;
+	background-color:#fffceb;
+	padding:0px;
+	margin:0px;
+	vertical-align:top;
+	
+}
+td.weekend
+{
+width:14.28%;
+	height:120px;
+	border:1px solid #68c9cb;
+	text-align:right;
+	color:#FFFFFF;
+	background-color:#e2e4e1;
+	vertical-align:top;
+	padding:0px;
+}
+td.Holiday
+{
+	width:14.28%;
+	height:120px;
+	border:1px solid #68c9cb;
+	text-align:right;
+	color:#ffffff;
+	background-color:#a9b8d8;
+	padding:0px;
+	vertical-align:top;
+}
+.holidayTxt{color:#FFFFFF;padding-bottom:5px;font-size:14px;}
+th.toprow2{
+text-decoration:none;
+text-align:center;
+height:30px;
+border:0px solid #999; 
+background-color:#CDDEFE;
+color:#000000
+}
+
+th.toprow{
+text-decoration:none;
+text-align:center;
+height:30px;
+padding:5px;
+background-color:#fff;
+color:#555;
+
+}
+th.toprow a {text-decoration:none; color:#555; vertical-align:top;}
+th.toprow a:hover{text-decoration: none; color:#555;}
+th.toprow1{
+text-decoration:none;
+text-align:center;
+height:30px;
+border:1px solid #68c9cb; 
+background-color:#43c0c2;
+color:#fff;
+
+}
+
+.event
+{
+	
+	font-size:80%;
+	text-align:left;
+	color:#000000;
+	float:left;
+	margin-top:15px;
+	margin-bottom:10px;	
+	height:50px;
+}
+
+
+.More
+{
+	text-align:right;
+	margin-bottom:0px;
+	margin-right:0px;
+	height:0px;
+}
+.populatetedDiv
+{
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:5px;
+	font-size:90%;
+	text-align:left;
+	color:#000000;
+}
+
+.menu {
+  position: absolute;
+  width: 620px;
+  height:300px;
+  margin-top: -2.5em;
+  margin-left: 0em;
+  margin-right: 0 em;
+  border:1px solid #999; 
+  background-color:#FFFFFF;
+  z-index: 1;
+}
+
+.calendar1
+{
+	width:100%; background-color:#ffffff; margin:0px; padding:0px; text-align: left; border-collapse: collapse; border:1px solid #e2e2e2; color:#585a5d;
+}
+
+.ViewConf img
+{
+	width:70px;
+	height:30px;
+	margin-top:15px;
+
+}
+.ViewConf
+{
+margin-top:15px;
+
+}
+.ViewConf a
+{
+	color:#996633;
+	font-size:14px;
+	text-decoration:none;
+}
+.populatetedDivData
+{
+
+	height:20px; 
+	margin-top:15px;
+	margin-bottom:15px;
+	padding-left:30px;
+	text-align:left;
+	font-size:100%;
+	background-color:#FFFFFF;
+}
+.populatetedDivData img
+{
+	text-decoration:none;
+	margin-left: 400px;
+	width:15px;
+	height:15px; 
+	border:0px;
+	background-color:#FFFFFF;
+}
+
+.calendar_DayDiv
+{
+position: absolute;
+  width: 363px;
+  height:360px;
+  margin-top: -2.5em;
+  margin-left: 0em;
+  margin-right: 0 em;
+  background-color:#fafafa;
+  z-index: 1;
+
+}
+.PopUpDataDiv
+{
+	overflow:auto;
+	width:440px;
+	height:300px;
+	color:#000000;
+	background-color:#FFFFFF;
+}
+
+.populatetedDivTextbox
+{
+	margin-top:20px;
+	margin-left:30px;
+}
+#help_nav1
+{
+	background-color:#fd7a17;
+	
+}
+
+#CalEvent{
+	position:absolute;
+	margin-top:100px;
+	left:30%;
+	display:none;
+	z-index:1000;
+	width:440px;
+	height:300px;	
+	border: 1px ridge #F1EFFC;
+	background-color:#F9FFFE;
+}
+.PrevMonth
+{
+width:20%;
+float:left;
+text-align:left;
+/* margin-left:10px; */
+margin-top:2px;
+vertical-align:top;
+}
+.CurrentMonth
+{
+font-size:12px;
+float:left;
+width:58%;
+color:#5289af;
+text-align:Center;
+margin-top:2px;
+}
+.NextMonth
+{
+float:Right;
+width:20%;
+text-align:right;
+margin-right:5px;
+margin-top:2px;
+}
+
+#CalTabs ul {
+padding: 0px;
+margin: 0px;
+margin-left: 0px;
+list-style-type: none;
+
+}
+
+#CalTabs ul li {
+display: inline-block;
+clear: none;
+float: left;
+height: 24px;
+}
+
+#CalTabs ul li a {
+position: relative;
+margin-top: 16px;
+display: block;
+margin-left: 6px;
+line-height: 24px;
+padding-left: 10px;
+background: #f6f6f6;
+z-index: 9999;
+border: 1px solid #ccc;
+border-bottom: 0px;
+
+/* The following four lines are to make the top left and top right corners of each tab rounded. */
+-moz-border-radius-topleft: 4px;
+border-top-left-radius: 4px;
+-moz-border-radius-topright: 4px;
+border-top-right-radius: 4px;
+/* end of rounded borders */
+
+width: 130px;
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+
+#CalTabs ul li a:hover {
+text-decoration: none; // a very simple effect when hovering the mouse on tab
+}
+
+#CalTabs #Content_Area { // this is the css class for the content displayed in each tab
+padding: 0 15px;
+clear:both;
+overflow:hidden;
+line-height:19px;
+position: relative;
+top: 20px;
+z-index: 5;
+height: 150px;
+overflow: hidden;
+}
+
+.WeekDayEvent
+{
+
+
+color: #555;
+min-height:auto;
+height:auto;
+overflow:auto;
+margin:0px;
+}
+.DayCalEventday
+{
+width:974px;
+height:30px;
+background: #fcfdfe;
+color: #000449;
+overflow:auto;
+margin:1px;
+}
+.DayHourTime
+{
+	background: #fcfdfe;
+	color: #555;
+	height:auto;
+}
+
+
+
+th.YearCaltoprow0{
+text-decoration:none;
+text-align:center;
+height:20px;
+background:#43c0c2; border:1px solid #D8E6ED; color:#fff;
+}
+th.YearCaltoprow{
+text-decoration:none;
+text-align:center;
+height:20px;
+background:#A1AEBC; border:1px solid #C4D3DB; color:#fff;
+}
+td.Yearcalday-NilEvent
+{
+width:30px; 
+height:20px;
+}
+.WeekendYearCal
+{
+	background-color:#F4F3EE;
+}
+.HolidayYearCal
+{
+	background-color:#a9b8d8;
+}
+div.YearCalday-Event  
+{ 
+ height:30px;
+	background-color:#bdecde;
+	color:#000000;
+}
+
+div.day-NoEvent
+{   
+	height:20px;
+	margin-top:0px;
+	color:#000000;
+}
+
+div.YearCalday-NoEvent
+{   
+	height:30px;	
+	color:#454545;
+}
+
+td.day-NilEvent
+{
+width:14.28%;
+border:1px solid #a2adbc;
+text-align:right;
+color:#000000;
+background-color:#66899f;
+}
+.YearCaldaynumber
+{
+	position: relative;
+	
+	text-align:center;
+}
+
+div.Mini_Cal table, div.Mini_Cal table tr td{width:100%;}
+.Calendar1 tr td table{width:100%;}
+.Calendar1 tr td table tr th{width:14.2%;}
+.DayNumbox{position:relative;  margin-top:0px;}
+
+.SearchIco{ border:0px; margin:4px 0px 0px -22px; width:18px; height:18px; padding:0px;}
+
+
+table.bornone, table.bornone tr td{border:0px solid #ff0000; padding:3px 2px;}
